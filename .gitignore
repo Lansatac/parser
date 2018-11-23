@@ -1,25 +1,14 @@
-# Compiled Object files
-*.o
-*.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.a
-*.lib
-
-# Executables
-*.exe
-
-# DUB
 .dub
 docs.json
 __dummy.html
 docs/
-__test__*__
-
-# Code coverage
+parser.so
+parser.dylib
+parser.dll
+parser.a
+parser.lib
+parser-test-*
+*.exe
+*.o
+*.obj
 *.lst

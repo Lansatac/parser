@@ -1,9 +1,0 @@
-{
-	"name": "parser",
-	"authors": [
-		"Jason Yegge"
-	],
-	"description": "A simple parsing library for building ASTs.",
-	"copyright": "Copyright © 2017, Jason Yegge",
-	"license": "MIT"
-}

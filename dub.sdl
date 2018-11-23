@@ -1,0 +1,21 @@
+name "parser"
+description "A parser"
+authors "jyegge"
+copyright "Copyright © 2018, jyegge"
+license "proprietary"
+
+targetPath "bin"
+
+configuration "application" {
+	targetType "executable"
+}
+
+configuration "library" {
+	targetType "library"
+}
+
+configuration "unittest" {
+	mainSourceFile "test/app.d"
+	excludedSourceFiles "source/app.d"
+	dependency "fluent-asserts" version="~>0.12.3"
+}
